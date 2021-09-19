@@ -1,10 +1,8 @@
 package guru.springframework.jdbc.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
+@NamedQuery(name = "author_find_all", query = "FROM Author")
 @Entity
 public class Author {
 
