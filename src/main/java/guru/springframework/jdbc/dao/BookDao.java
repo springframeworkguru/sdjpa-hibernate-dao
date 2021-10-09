@@ -14,6 +14,8 @@ public interface BookDao {
 
     Book findBookByTitle(String title);
 
+    Book findBookByTitleCriteria(String clean_code);
+
     Book saveNewBook(Book book);
 
     Book updateBook(Book book);
