@@ -3,11 +3,12 @@ package guru.springframework.jdbc.dao;
 import guru.springframework.jdbc.domain.Author;
 import org.springframework.stereotype.Component;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Query;
-import javax.persistence.TypedQuery;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.TypedQuery;
+import jakarta.persistence.Query;
 import java.util.List;
+
 
 /**
  * Created by jt on 8/28/21.
