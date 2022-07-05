@@ -3,8 +3,8 @@ package guru.springframework.jdbc.dao;
 import guru.springframework.jdbc.domain.Author;
 import org.springframework.stereotype.Component;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
 
 /**
  * Created by jt on 8/28/21.
